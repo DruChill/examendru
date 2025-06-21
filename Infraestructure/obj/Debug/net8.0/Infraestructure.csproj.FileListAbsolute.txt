@@ -13,3 +13,4 @@ C:\Users\Javier MR\Desktop\Proyecto\Infraestructure\obj\Debug\net8.0\Infraestruc
 C:\Users\Javier MR\Desktop\Proyecto\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
 C:\Users\Javier MR\Desktop\Proyecto\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
 C:\Users\Javier MR\Desktop\Proyecto\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
+C:\Users\Javier MR\Desktop\Proyecto\Infraestructure\obj\Debug\net8.0\Infraestructure.sourcelink.json

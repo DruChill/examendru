@@ -1,33 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dru/Documents/Repositories/examendru/API/API.csproj": {}
+    "C:\\Users\\Javier MR\\Desktop\\Proyecto\\API\\API.csproj": {}
   },
   "projects": {
-    "/Users/dru/Documents/Repositories/examendru/API/API.csproj": {
+    "C:\\Users\\Javier MR\\Desktop\\Proyecto\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dru/Documents/Repositories/examendru/API/API.csproj",
+        "projectUniqueName": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/dru/Documents/Repositories/examendru/API/API.csproj",
-        "packagesPath": "/Users/dru/.nuget/packages/",
-        "outputPath": "/Users/dru/Documents/Repositories/examendru/API/obj/",
+        "projectPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Javier MR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/dru/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Javier MR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/dru/Documents/Repositories/examendru/Infraestructure/Infraestructure.csproj": {
-                "projectPath": "/Users/dru/Documents/Repositories/examendru/Infraestructure/Infraestructure.csproj"
+              "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Infraestructure\\Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Infraestructure\\Infraestructure.csproj"
               }
             }
           }
@@ -36,6 +46,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,26 +89,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.17/libexec/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dru/Documents/Repositories/examendru/Core/Core.csproj": {
+    "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dru/Documents/Repositories/examendru/Core/Core.csproj",
+        "projectUniqueName": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/dru/Documents/Repositories/examendru/Core/Core.csproj",
-        "packagesPath": "/Users/dru/.nuget/packages/",
-        "outputPath": "/Users/dru/Documents/Repositories/examendru/Core/obj/",
+        "projectPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Javier MR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/dru/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Javier MR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,6 +128,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -133,34 +160,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.17/libexec/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dru/Documents/Repositories/examendru/Infraestructure/Infraestructure.csproj": {
+    "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Infraestructure\\Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dru/Documents/Repositories/examendru/Infraestructure/Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Infraestructure\\Infraestructure.csproj",
         "projectName": "Infraestructure",
-        "projectPath": "/Users/dru/Documents/Repositories/examendru/Infraestructure/Infraestructure.csproj",
-        "packagesPath": "/Users/dru/.nuget/packages/",
-        "outputPath": "/Users/dru/Documents/Repositories/examendru/Infraestructure/obj/",
+        "projectPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Infraestructure\\Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Javier MR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/dru/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Javier MR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/dru/Documents/Repositories/examendru/Core/Core.csproj": {
-                "projectPath": "/Users/dru/Documents/Repositories/examendru/Core/Core.csproj"
+              "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Javier MR\\Desktop\\Proyecto\\Core\\Core.csproj"
               }
             }
           }
@@ -169,6 +203,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -200,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.17/libexec/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

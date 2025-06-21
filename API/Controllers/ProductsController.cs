@@ -20,25 +20,25 @@ namespace API.Controllers;
 
         // GET: api/products
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<Producto>>> GetProducts()
         {
-            return await context.Products.ToListAsync();
+            return await context.Productos.ToListAsync();
         }
 
         // GET: api/products/{id}
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<Producto>> GetProduct(int id)
         {
-            var product = await context.Products.FindAsync(id);
+            var product = await context.Productos.FindAsync(id);
             if (product == null) return NotFound();
             return product;
         }
 
         // POST: api/products
         [HttpPost]
-        public async Task<ActionResult<Product>> CreateProduct(Product product)
+        public async Task<ActionResult<Producto>> CreateProduct(Producto product)
         {
-            context.Products.Add(product);
+            context.Productos.Add(product);
             await context.SaveChangesAsync();
             return product;
         }
