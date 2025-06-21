@@ -1,17 +1,24 @@
 using System;
 using Core.Entities;
-using Infraestructure.Config;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infraestructure.Data;
 
-public class StoreContext(DbContextOptions options) : DbContext(options)
+public class StoreContext : DbContext
 {
-    public DbSet<Product> Products { get; set; }
+    public StoreContext(DbContextOptions options) : base(options)
+    {
+    }
+
+    public DbSet<Cliente> Clientes { get; set; }
+    public DbSet<Producto> Productos { get; set; }
+    public DbSet<Venta> Ventas { get; set; }
+    public DbSet<DetalleVenta> DetalleVentas { get; set; }
+    public DbSet<Mascota> Mascotas { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProductConfiguration).Assembly);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(StoreContext).Assembly);
     }
 }
